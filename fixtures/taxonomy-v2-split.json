@@ -1,0 +1,21 @@
+{
+  "taxonomy_id": "topics-v2-split",
+  "version": 2,
+  "supersedes": "topics-v1",
+  "note": "新一轮分析把问题链设计单列为独立需求",
+  "created_at": "2026-11-19T10:00:00Z",
+  "topics": [
+    {
+      "topic_id": "classroom-questioning",
+      "name": "课堂提问",
+      "keywords": ["课堂提问"],
+      "source_topic_ids": ["questioning", "question-chain"]
+    },
+    {
+      "topic_id": "question-chain-design",
+      "name": "问题链设计",
+      "keywords": ["问题链"],
+      "source_topic_ids": ["questioning", "question-chain"]
+    }
+  ]
+}

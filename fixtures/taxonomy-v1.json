@@ -1,0 +1,10 @@
+{
+  "taxonomy_id": "topics-v1",
+  "version": 1,
+  "note": "首轮口径：课堂提问与问题链设计分开统计",
+  "created_at": "2026-11-18T10:00:00Z",
+  "topics": [
+    {"topic_id": "questioning", "name": "课堂提问", "keywords": ["课堂提问", "提问"]},
+    {"topic_id": "question-chain", "name": "问题链设计", "keywords": ["问题链"]}
+  ]
+}

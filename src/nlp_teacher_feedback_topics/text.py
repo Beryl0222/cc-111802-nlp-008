@@ -1,3 +1,4 @@
+import hashlib
 import re
 import unicodedata
 
@@ -13,6 +14,11 @@ def tokenize(text):
     return TOKEN_RE.findall(normalize_text(text))
 
 
+def content_digest(text):
+    """按规范化后的正文计算摘要，空白差异不会造成伪修订。"""
+    return hashlib.sha256(normalize_text(text).encode("utf-8")).hexdigest()
+
+
 def annotate(record):
     tokens = tokenize(record["text"])
     unique = []
@@ -24,4 +30,5 @@ def annotate(record):
         "terms": unique,
         "character_count": len(normalize_text(record["text"])),
         "token_count": len(tokens),
+        "content_digest": content_digest(record["text"]),
     }

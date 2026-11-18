@@ -14,5 +14,13 @@
     "observed_at": "2026-11-18T09:05:00Z",
     "text": "教师复核反馈主题时应查看课程语境。",
     "context": "课堂练习"
+  },
+  {
+    "record_id": "teacher-feedback-topics-lesson-c",
+    "source": "school-synthetic",
+    "revision": 1,
+    "observed_at": "2026-11-18T09:10:00Z",
+    "text": "课堂提问要留出等待时间，问题链设计要体现层次，提问与问题链都要贴近课文语境。",
+    "context": "课堂观察"
   }
 ]

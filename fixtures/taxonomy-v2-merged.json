@@ -1,0 +1,15 @@
+{
+  "taxonomy_id": "topics-v2-merged",
+  "version": 2,
+  "supersedes": "topics-v1",
+  "note": "新一轮分析将课堂提问与问题链设计合并为问题设计",
+  "created_at": "2026-11-19T10:00:00Z",
+  "topics": [
+    {
+      "topic_id": "question-design",
+      "name": "问题设计",
+      "keywords": ["提问", "问题链"],
+      "source_topic_ids": ["questioning", "question-chain"]
+    }
+  ]
+}
